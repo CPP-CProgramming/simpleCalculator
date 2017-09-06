@@ -22,6 +22,7 @@ namespace simpleCalculator
                 double result = calculatorEngine.Calculate(operation, firstNumber, secondNumber);
 
                 Console.WriteLine(result);
+                Console.WriteLine();
             }
             catch (Exception ex)
             {
